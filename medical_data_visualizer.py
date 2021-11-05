@@ -60,9 +60,7 @@ def draw_heat_map():
     sns.heatmap(corr, mask=mask, center=0, annot=True, square=True, fmt=".1f",
                 vmin=-.1, vmax=.25, cbar_kws={"shrink": .45}, ax=ax)
 
-    # yticks
-    plt.yticks(rotation=0)
-
     # Do not modify the next two lines
     fig.savefig('heatmap.png')
+
     return fig
