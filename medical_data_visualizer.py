@@ -30,7 +30,6 @@ def draw_cat_plot():
 
     # Do not modify the next two lines
     fig.savefig('catplot.png')
-
     return fig
 
 
@@ -58,5 +57,4 @@ def draw_heat_map():
 
     # Do not modify the next two lines
     fig.savefig('heatmap.png')
-
     return fig
